@@ -38,6 +38,7 @@ footer{
     background-size: 100%;
     background-position-y: -400px;
     padding: 200px;
+
 }
 
 .logotype img{
@@ -60,19 +61,77 @@ footer{
     height: 100%;
 }
 
-.navbar ul{
-    list-style-type: none;
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:  30px;
+    position: relative;
+
 }
-.navbar li a{
-    transition: all 0.3s ease 0s;
-    color: #6e4040;
+.navbar ul li a{
     text-decoration: none;
-    margin: 50px;
+    color: #6e4040;
+    text-transform: uppercase;
 }
-.navbar li a:hover{
-    color:#fbfbfb;
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #683131;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%; 
+
+}
+.banner-text{
+    text-align: center;
+    color: #6e4040; 
+    padding-top: 20px;
+}
+.banner-text h1{
+    font-size: 50px;
+    font-family: italic;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
 }
 
-.navbar li{
-    float: right;
+#burgernav{
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background:#683131;
+    z-index: 2;
+}
+nav ul li{
+    list-style: nonve;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#bb6868
+}
+#menuB{
+    width: 50px;
+    height: 50px;
+    background: #6e4040;
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menuB.jpg img{
+    width: 10px;
+    margin-top: 3;
 }
