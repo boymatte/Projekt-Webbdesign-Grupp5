@@ -66,6 +66,7 @@ footer{
     display: inline-block;
     margin:  30px;
     position: relative;
+    color: #6e4040;
 
 }
 .navbar ul li a{
@@ -120,7 +121,7 @@ nav ul li a{
     color:#bb6868
 }
 #menuB{
-    width: 600px;
+    width: 40px;
     height: 5px;
     background: #6e4040;
     text-align: center;
@@ -137,5 +138,9 @@ nav ul li a{
     height: 10;
 }
 
-
+.vin1
+{
+    float: left;
+    font-size: 20px;
+}
 
