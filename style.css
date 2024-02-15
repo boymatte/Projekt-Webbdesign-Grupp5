@@ -194,8 +194,12 @@ nav ul li a{
     color: #fff; 
 }
 .olika-druvor img{
-    width: 100%;
+    width: 80%;
     border-radius: 7px; 
 }
 
+.druvor-röda h2{
+    font-family: italic;
+    color: #6e4040; 
+}
 
