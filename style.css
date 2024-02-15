@@ -161,12 +161,33 @@ nav ul li a{
     height: 5;
 }
 
-
-
-.bild2
-{
-    max-height: 10%;
-    max-width: 10%;
-    font-size: 600;
-    text-align: center;
+/*
+.bild img{
+    height: 200px;
+    width: 200px;
+    float: right;
 }
+
+.bild2 img{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+*/
+
+.bild img,
+.bild2 img, .VinNoLogo img, .vintest {
+    height: 200px;
+    width: 200px;
+    float: right;
+    display: block;
+}
+
+.bildtext {
+    display: block;
+    clear: both;
+}
+
+
+
+
