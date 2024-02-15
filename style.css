@@ -161,33 +161,41 @@ nav ul li a{
     height: 5;
 }
 
-/*
-.bild img{
-    height: 200px;
-    width: 200px;
-    float: right;
+
+
+.bild2
+{
+    max-height: 10%;
+    max-width: 10%;
+    font-size: 600;
+    text-align: center;
 }
 
-.bild2 img{
-    height: 200px;
-    width: 200px;
-    float: right;
+#footer{
+    padding: 20px; 
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    text-align: left; 
+    width: 100%;
 }
-*/
-
-.bild img,
-.bild2 img, .VinNoLogo img, .vintest {
-    height: 200px;
-    width: 200px;
-    float: right;
-    display: block;
+.Info-om-druvor{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
 }
-
-.bildtext {
-    display: block;
-    clear: both;
+.olika-druvor{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff; 
 }
-
-
+.olika-druvor img{
+    width: 100%;
+    border-radius: 7px; 
+}
 
 
