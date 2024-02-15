@@ -163,12 +163,29 @@ nav ul li a{
 
 
 
-.bild2
+.bild2 img
 {
-    max-height: 10%;
-    max-width: 10%;
-    font-size: 600;
+    float: right;
+
+    width: 25%;
+    height: 25%;
+ 
     text-align: center;
+}
+
+.VinNoLogo img
+{
+    width: 25%;
+    height: 25%;
+    float: right;
+
+}
+
+.vin1 img
+{
+    width: 25%;
+    height: 25%;
+    float: right;
 }
 
 #footer{
