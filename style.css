@@ -50,7 +50,7 @@ footer{
 }
 
 .banner img {
-    width: 100%; /* Ensures the image fills the container */
+    width: 100%;
     height: auto;
     background-attachment: fixed;
 }
@@ -165,5 +165,10 @@ nav ul li a{
 {
     float: left;
     font-size: 20px;
+}
+
+.bild img{
+    height: 500px;
+    width: 500px;
 }
 
