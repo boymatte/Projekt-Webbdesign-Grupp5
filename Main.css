@@ -14,7 +14,7 @@ main{
     margin-left: 20%;
     margin-right: 20%;
     background-color: rgb(236, 205, 205);
-    padding-bottom: 80px;
+    padding: 20px; 
 }
 
 main h1, h2{
