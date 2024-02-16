@@ -78,7 +78,7 @@ footer{
 }
 .boxes{
     margin: 10%;
-    background-color: #e9f51309;
+    background-color: #abb407c4;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -91,6 +91,7 @@ footer{
 .box img{
     width: auto;
     height: 100%;
+    filter: drop-shadow(0 50px 20px #0009);
 }
 
 .navbar ul li{
@@ -175,10 +176,8 @@ nav ul li a{
 .bild2 img
 {
     float: right;
-
     width: 25%;
     height: 25%;
- 
     text-align: center;
 }
 
