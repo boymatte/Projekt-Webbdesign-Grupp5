@@ -282,12 +282,31 @@ hr{
     bottom: 40%;
     opacity: 1;
 }
-.druvor-röda h2{
+#druvor-röda h2{
     font-family: italic;
     color: #6e4040; 
+    text-align: center;
 }
 
 
 #länk{
     color: white;
+}
+
+@media screen and (max-width: 770px) 
+{
+    .olikadruvor{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .olikadruvor-sort p{
+        font-size: 6px;  
+    }
+    hr{
+        margin: 7px auto;
+    }
+    .olikadruvor:hover .overlay{
+    bottom: 40%;
+    }
+    
 }
