@@ -18,17 +18,17 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(/Bilder/vine.jpg);
-    height:150px;
+    background-color: rgba(0, 0, 0, 0.912);
 }
 
 .logotype{
-    margin-left: 5%;
+    margin: 1%;
+    padding-left: 10%;
 }
 
 .logotype img{
-    width: 175px;
-    height: 125px;
+    width: 100px;
+    height: 75px;
 }
 
 footer{
@@ -41,11 +41,9 @@ footer{
     align-items: center;
     justify-content: center;
     bottom: 0;
-
 }
 
 .banner {
-    margin-top: 2%;
     position: relative; /* Make sure the banner is positioned relative */
     height: 400px;
     overflow: hidden;
@@ -70,15 +68,6 @@ footer{
     z-index: 1;
 }
 
-.infobox{
-    text-align: center;
-    display: flex;
-    justify-content:center;
-    background: linear-gradient(hsla(39, 75%, 13%, 0.173),#f7f5f500);
-}
-.infobox h1{
-}
-
 .boxes {
     text-align: center;
     display: flex;
@@ -88,12 +77,11 @@ footer{
 
 .box {
     border-radius: 10px;
-    margin: 5%;
+    margin: 3%;
     width: 300px;
     height: 400px;
     transition: transform 0.3s ease;
-    border: solid black 0.1px;
-    background: rgba(255, 255, 255, 0.78)
+    background: linear-gradient(hsla(0, 7%, 3%, 0.06),#f7f5f500);
 }
 
 .box img {
@@ -133,10 +121,9 @@ footer{
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin:  30px;
+    margin:  50px;
     position: relative;
-    color: #6e4040;
-
+    color: #481919;
 }
 .navbar ul li a{
     text-decoration: none;
