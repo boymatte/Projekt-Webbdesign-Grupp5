@@ -78,7 +78,7 @@ footer{
 }
 .boxes{
     margin: 10%;
-    background-color: #abb407c4;
+    background-color: #7c7d7317;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -89,7 +89,6 @@ footer{
 }
 
 .box img{
-    width: auto;
     height: 100%;
     filter: drop-shadow(0 50px 20px #0009);
 }
