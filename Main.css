@@ -320,3 +320,18 @@ hr{
     }
     
 }
+
+section{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4%;
+    background-color: rgb(236, 205, 205);
+    padding: 10px;
+}
+
+.left{
+    float: left;
+    width: 20%;
+    height: 100vh;
+    background-color:rgba(163, 0, 30, 0.303);
+}
