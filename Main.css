@@ -40,6 +40,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    bottom: 0;
 }
 
 .banner {
@@ -304,6 +305,21 @@ hr{
 
 #länk{
     color: white;
+}
+
+section{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4%;
+    background-color: rgb(236, 205, 205);
+    padding: 10px;
+}
+
+aside{
+    float: left;
+    width: 15%;
+    background-color:rgba(163, 0, 30, 0.303);
+    height: 50vh;
 }
 
 @media screen and (max-width: 770px) 
