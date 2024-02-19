@@ -41,6 +41,7 @@ footer{
     align-items: center;
     justify-content: center;
     bottom: 0;
+    left: 0;
 }
 
 .banner {
@@ -399,3 +400,28 @@ aside{
 }
 
 /* ============================= */
+
+
+/* ========= Viner ========= */
+
+#content{
+    display: grid;
+    text-align: center;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    max-width: 100px;
+    margin-top: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+#content div{
+    background: #48191928;
+    padding: 100px;
+}
+#content div:nth-child(even){
+    background: #bb68688a;
+}
+
+/* ========================= */
