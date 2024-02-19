@@ -301,6 +301,11 @@ hr{
     color: #6e4040; 
     text-align: center;
 }
+#druvor-vita h2{
+    font-family: italic;
+    color: #6e4040; 
+    text-align: center;
+}
 
 
 #länk{
@@ -340,7 +345,7 @@ aside{
     hr{
         margin: 7px auto;
     }
-    .olikadruvor:hover .overlay{
+    .olikadruvor:hover.overlay{
     bottom: 40%;
     }
     
