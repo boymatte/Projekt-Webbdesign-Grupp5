@@ -308,7 +308,13 @@ hr{
 }
 
 section{
-    margin-left: 20%;
+    
+    margin-right: 20%;
+    margin-top: 4%;
+    background-color: rgb(236, 205, 205);
+    padding: 10px;
+}
+.druvor-röda{
     margin-right: 20%;
     margin-top: 4%;
     background-color: rgb(236, 205, 205);
