@@ -34,7 +34,7 @@ header{
 footer{
     background-color: rgb(37, 31, 31);
     color: rgb(255, 252, 252);
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 80px; 
     display: flex;
@@ -53,7 +53,6 @@ footer{
     background-position: 70%;
     background-position: 0%;
     background-image: url(Bilder/vin.jpg);
-    
     position: relative;
 }
 
@@ -314,7 +313,6 @@ hr{
 }
 
 section{
-    
     margin-right: 20%;
     margin-top: 4%;
     background-color: rgb(236, 205, 205);
@@ -355,53 +353,104 @@ aside{
 
 /* ========= Produktsida ========= */
 
-#Produkten{
-    height: 500px;
-    margin: 5%;
-    display: flex;
+.Inforuta {
+    border: 1px solid #ccc;
+}
+
+.InfoHeader{
+    display:flex;
     justify-content:space-around;
-    border: solid rgb(240, 43, 43);
+    align-items: center;
+    background-color: #10160e55;
+    height: 20%;
+}
+
+.Rating{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.Rating img {
+    height: 50px;
+}
+
+.Titel h1, h2{
+    font-size: 28px;
+}
+
+.Info{
+    background-color: #d6e9d255;
+}
+
+#Produkten{
+    margin-left: 20%;
+    height: 700px;
+    width: 60%;
+    display: flex;
+    justify-content:center;
+    background-color: #ffffff;
 }
 
 .Produktbild{
     display: flex;
-    justify-content:space-around;
-    width: 500px;
-    border: solid rgb(63, 32, 188);
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #461a3755;
 }
 
 .Produktbild img{
-    height: 100%;
     width: auto;
-    border: solid green;
+    height: 90%;
 }
 
-.Inforuta{   
-    border: solid black;
-    width: 500px;
-    height: 100%;
+.Inforuta{
+    align-items: center;
+    width: 60%;
+    background-color: #e6e6d9;
 }
 
-.Inforuta p, h2, h3{
-    text-align: center;
+.Info h2{
+    padding-top: 5%;
+    padding-left: 20%;
+    font-size: 24px;
+}
+
+.Info p{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
 }
 
 #Nedre{
-    margin: 5%;
+    margin-top: 0%;
+    margin-left: 20%;
+    margin-bottom: 5%;
     height: 500px;
+    width: 60%;
     display: flex;
-    justify-content:space-around;
-    border: solid rgb(68, 29, 210);
+    justify-content:center;
+    background-color: rgb(255, 255, 255);
 }
 
 .Kommentera{
-
+    border: 1px solid #b1b6cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #c4c8d7;
 }
 
 .Recensioner{
-    border: solid rgb(89, 44, 224);
-    width: 500px;
-    height: 100%;
+    border: 1px solid #9bc8ab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #c9dfd1;
 }
 
 /* ============================= */
