@@ -233,6 +233,7 @@ nav ul li a{
     float: right;
 }
 
+/*------ DruvorRöda-------*/
 #druvor-röda{
     width: 100%;
     padding: 70px 0;
@@ -289,7 +290,8 @@ hr{
     width: 60%;
 }
 .olikadruvor-sort p{
-    font-size: 14px;
+    font-size: 1.15vw;
+    
     
 }
 .olikadruvor:hover .olikadruvor-sort{
@@ -332,24 +334,31 @@ aside{
     height: 50vh;
 }
 
-@media screen and (max-width: 770px) 
+@media screen and (max-width: 760px) 
 {
     .olikadruvor{
         flex-basis: 100%;
         margin-bottom: 30px;
     }
     .olikadruvor-sort p{
-        font-size: 6px;  
+        font-size: 2vw;
+
     }
     hr{
-        margin: 7px auto;
+        margin: 6px auto;
     }
     .olikadruvor:hover.overlay{
-    bottom: 40%;
+    bottom: 20%;
     }
     
 }
+/*------ DruvorVita-------*/
 
+#druvor-vita{
+    width: 100%;
+    padding: 70px 0;
+    background-color: #f5e7e7;
+}
 
 /* ========= Produktsida ========= */
 
