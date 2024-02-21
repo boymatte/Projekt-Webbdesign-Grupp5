@@ -323,14 +323,16 @@ aside{
 /* ========= Produktsida ========= */
 
 .Inforuta {
-    border: 1px solid #ccc;
+    background-color: rgb(183, 158, 154);
+    align-items: center;
+    width: 60%;
 }
 
 .InfoHeader{
     display:flex;
     justify-content:space-around;
     align-items: center;
-    background-color: #10160e55;
+    background-color: rgb(228, 210, 207);
     height: 20%;
 }
 
@@ -348,17 +350,13 @@ aside{
     font-size: 28px;
 }
 
-.Info{
-    background-color: #d6e9d255;
-}
-
 #Produkten{
     margin-left: 20%;
-    height: 700px;
+    height: 800px;
     width: 60%;
     display: flex;
     justify-content:center;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
 }
 
 .Produktbild{
@@ -366,18 +364,12 @@ aside{
     justify-content: center;
     align-items: center;
     width: 40%;
-    background-color: #461a3755;
+    background-color: rgba(215, 212, 201, 0.084);
 }
 
 .Produktbild img{
     width: auto;
     height: 90%;
-}
-
-.Inforuta{
-    align-items: center;
-    width: 60%;
-    background-color: #e6e6d9;
 }
 
 .Info h2{
@@ -389,7 +381,7 @@ aside{
 .Info p{
     padding-left: 20%;
     padding-right: 20%;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #Nedre{
@@ -404,7 +396,6 @@ aside{
 }
 
 .Kommentera{
-    border: 1px solid #b1b6cb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -413,13 +404,28 @@ aside{
 }
 
 .Recensioner{
-    border: 1px solid #9bc8ab;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 5%;
     width: 60%;
-    background-color: #c9dfd1;
+    background-color: #ffffff;
+}
+.Recensioner h2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.Kommentarer p{
+    padding: 20px;
+    border:solid rgb(228, 220, 220) 1px;
+    
+}
+.Kommentarer{
+    width: 90%;
+    border:solid rgb(107, 97, 97) 1px;
+    overflow: auto;
 }
 
 /* ============================= */
