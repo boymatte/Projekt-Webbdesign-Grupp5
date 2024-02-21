@@ -384,10 +384,9 @@ aside{
     font-size: 18px;
 }
 
-#Nedre{
+#Recensera{
     margin-top: 0%;
     margin-left: 20%;
-    margin-bottom: 5%;
     height: 500px;
     width: 60%;
     display: flex;
@@ -395,37 +394,36 @@ aside{
     background-color: rgb(255, 255, 255);
 }
 
-.Kommentera{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    background-color: #c4c8d7;
-}
-
-.Recensioner{
+.Kommentarsfält{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 5%;
-    width: 60%;
+    width: 80%;
     background-color: #ffffff;
 }
-.Recensioner h2{
+
+.Kommentarsfält h2{
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
 .Kommentarer p{
     padding: 20px;
-    border:solid rgb(228, 220, 220) 1px;
+    border:solid rgba(0, 0, 0, 0.118) 1px;
     
 }
 .Kommentarer{
-    width: 90%;
-    border:solid rgb(107, 97, 97) 1px;
+    width: 100%;
     overflow: auto;
+}
+
+#Kommentera{
+    background-color: white;
+    border: solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 300px;
 }
 
 /* ============================= */
