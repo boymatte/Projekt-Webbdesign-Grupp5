@@ -129,7 +129,7 @@ footer{
 }
 
 .SeMer:hover{
-    background-color: #6e40404b;
+    background-color: #463aa24b;
 }
 
 .navbar ul li{
@@ -137,23 +137,26 @@ footer{
     display: inline-block;
     margin:  50px;
     position: relative;
-    color: #481919;
+    color: #ffffff;
 }
+
 .navbar ul li a{
     text-decoration: none;
-    color: #6e4040;
+    color: #ffffff;
     text-transform: uppercase;
+    font-size: larger;
 }
+
 .navbar ul li::after{
     content: '';
     height: 3px;
     width: 0;
-    background: #683131;
+    background: #c9bd63;
     position: absolute;
     left: 0;
     bottom: -3px;
     transition: 0.5s;
-
+    font-size: larger;
 }
 .navbar ul li:hover::after{
     width: 100%; 
