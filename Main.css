@@ -33,7 +33,7 @@ header{
 
 footer{
     background-color: rgb(37, 31, 31);
-    color: rgb(255, 252, 252);
+    color: white;
     position: absolute;
     width: 100%;
     height: 80px; 
@@ -48,7 +48,7 @@ footer a{
     color: white;
     text-decoration: none;
 }
-
+/* ========= Index ========= */
 .banner {
     margin-top: 2%;
     width: 100%;
@@ -103,6 +103,48 @@ footer a{
     background-color: #463aa24b;
 }
 
+.boxes a{
+    color: black;
+    text-decoration: none;
+}
+
+.boxes {
+    padding: 5%;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    background: linear-gradient(hsla(0, 75%, 30%, 0.172),#f7f5f500);
+
+}
+
+.box {
+    border-radius: 10px;
+    margin: 3%;
+    width: 300px;
+    height: 400px;
+    transition: transform 0.3s ease;
+    background: linear-gradient(hsla(0, 7%, 3%, 0.06),#f7f5f500);
+    cursor: pointer;
+}
+
+.box img {
+    margin-top: 5%;
+    height: 70%;
+    width: auto;
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.6));
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.boxes h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* ========================= */
+
 .navbar ul li{
     list-style: none;
     display: inline-block;
@@ -147,15 +189,6 @@ footer a{
     font-style: italic;
 }
 
-#burgernav{
-    width: 220px;
-    height: 100vh;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background:#683131;
-    z-index: 2;
-}
 nav ul li{
     list-style: nonve;
     margin: 50px 20px;
@@ -180,30 +213,6 @@ nav ul li a{
 {
     width: 5;
     height: 5;
-}
-
-
-
-.bild2 img
-{
-    float: right;
-    width: 25%;
-    height: 25%;
-    text-align: center;
-}
-
-.VinNoLogo img
-{
-    width: 25%;
-    height: 25%;
-    float: right;
-}
-
-.vin1 img
-{
-    width: 25%;
-    height: 25%;
-    float: right;
 }
 
 #druvor-röda{
@@ -231,17 +240,7 @@ nav ul li a{
     height: 100%;
     border-radius: 7px; 
 }
-.overlay{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    border-radius: 7px;
-    cursor: pointer;
-    background: linear-gradient(rgba(224, 85, 85, 0.5),#bb6868);
-    opacity: 0;
-    transition: 1s;
-}
+
 .olikadruvor:hover .overlay{
     opacity: 1;
 }
@@ -431,39 +430,45 @@ aside{
 
 /* ========= Viner ========= */
 
+.produkter a{
+    color: black;
+    text-decoration: none;
+}
+
 .produkter {
-    padding: 5%;
+    padding: 2%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: linear-gradient(hsla(0, 75%, 30%, 0.172),#f7f5f500);
-    cursor: pointer;
 }
 
 .produkt {
-    border-radius: 10px;
-    margin: 3%;
-    width: 300px;
-    height: 400px;
-    transition: transform 0.3s ease;
-    background: linear-gradient(hsla(0, 7%, 3%, 0.06),#f7f5f500);
+    border: 1px solid rgba(0, 0, 0, 0.222);
+    margin: 0.3%;
+    width: 450px;
+    height: 450px;
+    background:#bb686813;
+    cursor: pointer;
 }
 
 .produkt img {
     margin-top: 5%;
     height: 70%;
     width: auto;
-    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.6));
 }
 
-.produkt:hover {
-    transform: scale(1.1);
+.produkter h2, h3{
+    text-align: center;
+    margin-top: 3%;
 }
 
-.produkter h2 {
-    margin-top: 5%;
-    margin-bottom: 5%;
+.betyg{
+    text-align: right;
+    margin-right: 20%;
 }
 
+.betyg img{
+    width: 50px;
+}
 /* ========================= */
