@@ -295,7 +295,7 @@ hr{
     
 }
 .olikadruvor:hover .olikadruvor-sort{
-    bottom: 40%;
+    bottom: 20%;
     opacity: 1;
 }
 #druvor-röda h2{
@@ -314,7 +314,7 @@ hr{
     color: white;
 }
 
-section{
+#druvor-röda{
     margin-right: 20%;
     margin-top: 4%;
     background-color: rgb(236, 205, 205);
@@ -324,7 +324,7 @@ section{
     margin-right: 20%;
     margin-top: 4%;
     background-color: rgb(236, 205, 205);
-    padding: 10px;
+    padding: 3px;
 }
 
 aside{
@@ -348,7 +348,7 @@ aside{
         margin: 6px auto;
     }
     .olikadruvor:hover.overlay{
-    bottom: 20%;
+    bottom: 10%;
     }
     
 }
@@ -358,6 +358,10 @@ aside{
     width: 100%;
     padding: 70px 0;
     background-color: #f5e7e7;
+    margin-right: 20%;
+    margin-top: 4%;
+    background-color: rgb(236, 205, 205);
+    padding: 20px;
 }
 
 /* ========= Produktsida ========= */
