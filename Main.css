@@ -238,17 +238,29 @@ nav ul li a{
     text-align: center;
     border-radius: 7px;
     margin-bottom: 20px;
-    color:#ffff;
+    color:#fff;
     position: relative;
 }
 .olikadruvor img{
     width: 100%;
     height: 100%;
     border-radius: 7px; 
-}
+}s
 
 .olikadruvor:hover .overlay{
     opacity: 1;
+    
+}
+.overlay{
+    background: linear-gradient(rgba(0,0,0,0,5),#f08b8b);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 1; 
+
 }
 .olikadruvor-sort{
     width: 80%;
@@ -261,7 +273,7 @@ nav ul li a{
 }
 
 hr{
-    background: #ffff;
+    background: #f08b8b;
     height: 2px;
     border: 0;
     margin: 15px auto;
