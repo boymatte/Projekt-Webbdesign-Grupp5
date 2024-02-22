@@ -269,12 +269,12 @@ hr{
 }
 
 .olikadruvor-sort p{
-    font-size: 14px;
+    font-size: 1.15vw;
     
 }
 
 .olikadruvor:hover .olikadruvor-sort{
-    bottom: 40%;
+    bottom: 20%;
     opacity: 1;
 }
 
@@ -291,6 +291,7 @@ hr{
     text-align: center;
     font-size: 35px;
 }
+
 
 #druvor-vita{
     background-color: rgb(239, 225, 225);
@@ -318,16 +319,18 @@ aside{
         margin-bottom: 30px;
     }
     .olikadruvor-sort p{
-        font-size: 6px;  
+        font-size: 10px;  
     }
     hr{
         margin: 7px auto;
     }
     .olikadruvor:hover.overlay{
-    bottom: 40%;
+    bottom: 10%;
     }
     
 }
+/* ========= Druvor-Vita ========= */
+
 
 
 /* ========= Produktsida ========= */
