@@ -224,7 +224,7 @@ nav ul li a{
 #druvor-röda{
     width: 100%;
     padding: 70px 0;
-    background-color: #f5e7e7;
+    background-color: rgb(239, 225, 225); 
 }
 .Info-om-druvor{
     width: 40%;
@@ -238,7 +238,7 @@ nav ul li a{
     text-align: center;
     border-radius: 7px;
     margin-bottom: 20px;
-    color:#ffff;  
+    color:#ffff;
     position: relative;
 }
 .olikadruvor img{
@@ -259,6 +259,7 @@ nav ul li a{
     opacity: 0;
     transition: 1s;
 }
+
 hr{
     background: #ffff;
     height: 2px;
@@ -266,36 +267,40 @@ hr{
     margin: 15px auto;
     width: 60%;
 }
+
 .olikadruvor-sort p{
     font-size: 14px;
     
 }
+
 .olikadruvor:hover .olikadruvor-sort{
     bottom: 40%;
     opacity: 1;
 }
+
 #druvor-röda h2{
     font-family: italic;
     color: #6e4040; 
     text-align: center;
+    font-size: 35px;
 }
+
 #druvor-vita h2{
     font-family: italic;
     color: #6e4040; 
     text-align: center;
+    font-size: 35px;
 }
 
-section{
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 4%;
-    background-color: rgb(236, 205, 205);
-    padding-bottom: 15px;
+#druvor-vita{
+    background-color: rgb(239, 225, 225);
+    padding-bottom: 5%;
 }
+
 .druvor-röda{
     margin-right: 20%;
     margin-top: 4%;
-    background-color: rgb(236, 205, 205);
+    background-color: rgb(218, 196, 196);
     padding: 10px;
 }
 
@@ -328,7 +333,7 @@ aside{
 /* ========= Produktsida ========= */
 
 .Inforuta {
-    background-color:  rgb(174, 140, 134);
+    background-color:  rgb(224, 200, 196);
     align-items: center;
     width: 60%;
     overflow:auto;
@@ -338,7 +343,7 @@ aside{
     display:flex;
     justify-content:space-around;
     align-items: center;
-    background-color: rgb(117, 88, 84);
+    background-color: rgb(183, 159, 155);
     height: 20%;
 }
 
@@ -359,9 +364,11 @@ aside{
 #Produkten{
     height: 800px;
     width: 60%;
+    margin-left: 20%;
     display: flex;
     justify-content:center;
     background-color: rgb(255, 255, 255);
+    margin-top: 2%;
 }
 
 .Produktbild{
@@ -369,7 +376,7 @@ aside{
     justify-content: center;
     align-items: center;
     width: 40%;
-    background-color: rgb(214, 202, 202);
+    background-color: rgb(227, 227, 224);
 }
 
 .Produktbild img{
@@ -393,12 +400,14 @@ aside{
 /*============Recensioner===========*/
 #Recensera{
     margin-top: 0%;
+    margin-left: 20%;
     height: 500px;
     width: 60%;
     display: flex;
     justify-content:space-between;
-    background-color: #859baf;
+    background-color: #ffffff;
     padding-top: 1%;
+    padding-bottom: 5%;
 }
 
 .Kommentarsfält{
@@ -407,8 +416,7 @@ aside{
     justify-content: center;
     align-items: center;
     width: 60%;
-    background-color: #859baf;
-    margin-right: 2%;
+    background-color: #ffffff;
 }
 
 .Kommentarsfält h2{
@@ -423,7 +431,7 @@ aside{
 .Kommentarer{
     width: 100%;
     overflow: auto;
-    background-color: #ffffff;
+    background-color: #eff3ee;
 }
 /* ============================= */
 
