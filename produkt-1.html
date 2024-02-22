@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinfo</title>
     <link rel="stylesheet" href="Main.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -32,7 +33,7 @@
                 </div>
                 <div class="Rating">
                     <img src="/Bilder/star1.png" alt="star">
-                    <h2>3.6</h2>
+                    <h2>3.6 / 5</h2>
                 </div>
             </div>
 
@@ -48,6 +49,21 @@
     </section>
 
     <section id="Recensera">
+        <div class="Comment-box">
+            <h2>Berätta vad du tycker</h2>
+            <form id="Comment-form">
+                <textarea id="comment" placeholder="Skriv din kommentar här..."></textarea>
+                <div class="rating">
+                    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="5 stjärnor"></label>
+                    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4 stjärnor"></label>
+                    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 stjärnor"></label>
+                    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 stjärnor"></label>
+                    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 stjärna"></label>
+                </div>
+                <button type="submit">Skicka</button>
+            </form>
+        </div>
+
         <div class="Kommentarsfält">
             <h2>Recensioner (6)</h2>
             <div class="Kommentarer">
@@ -61,12 +77,8 @@
         </div>
     </section>
 
-    <section id="Kommentera">
-        <h2>Kommentera</h2>
-    </section>
-
-    <section id="tomt"></section>
-
+    <section id="tomt"></section> <!-- behöver lösas på annat sätt, skapar en section ruta som syns vid utzoomning -->
+    
     <footer>
         <p><a id="länk" href="omoss.html">Om oss</a> | 
         <a id="länk" href="//www.alkohollinjen.se/" >Drick ansvarsfullt</a></p>
