@@ -290,7 +290,7 @@ section{
     margin-left: 20%;
     margin-top: 4%;
     background-color: rgb(236, 205, 205);
-    padding: 10px;
+    padding-bottom: 15px;
 }
 .druvor-röda{
     margin-right: 20%;
@@ -328,16 +328,17 @@ aside{
 /* ========= Produktsida ========= */
 
 .Inforuta {
-    background-color: rgb(183, 158, 154);
+    background-color:  rgb(174, 140, 134);
     align-items: center;
     width: 60%;
+    overflow:auto;
 }
 
 .InfoHeader{
     display:flex;
     justify-content:space-around;
     align-items: center;
-    background-color: rgb(228, 210, 207);
+    background-color: rgb(117, 88, 84);
     height: 20%;
 }
 
@@ -356,7 +357,6 @@ aside{
 }
 
 #Produkten{
-    margin-left: 20%;
     height: 800px;
     width: 60%;
     display: flex;
@@ -369,7 +369,7 @@ aside{
     justify-content: center;
     align-items: center;
     width: 40%;
-    background-color: rgba(215, 212, 201, 0.084);
+    background-color: rgb(214, 202, 202);
 }
 
 .Produktbild img{
@@ -388,15 +388,17 @@ aside{
     padding-right: 20%;
     font-size: 18px;
 }
+/* ============================= */
 
+/*============Recensioner===========*/
 #Recensera{
     margin-top: 0%;
-    margin-left: 20%;
     height: 500px;
     width: 60%;
     display: flex;
-    justify-content:center;
-    background-color: rgb(255, 255, 255);
+    justify-content:space-between;
+    background-color: #859baf;
+    padding-top: 1%;
 }
 
 .Kommentarsfält{
@@ -404,38 +406,77 @@ aside{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    background-color: #ffffff;
+    width: 60%;
+    background-color: #859baf;
+    margin-right: 2%;
 }
 
 .Kommentarsfält h2{
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 1.4%;
 }
 
 .Kommentarer p{
     padding: 20px;
-    border:solid rgba(0, 0, 0, 0.118) 1px;
-    
+    border:solid rgb(103, 97, 97) 1px;
 }
+
 .Kommentarer{
     width: 100%;
     overflow: auto;
+    background-color: #ffffff;
+}
+/* ============================= */
+
+/* ==============Kommentera funktion=============== */
+.Comment-box{
+    width: 40%;
 }
 
-#Kommentera{
-    background-color: white;
-    border: solid black;
-    margin-left: 30%;
-    margin-right: 30%;
-    height: 300px;
+.Comment-box h2{
+    margin-bottom: 2%;
+    margin-left:5%;
+}
+
+#comment {
+    width: 90%;
+    height: 200px;
+    margin-bottom: 10px;
+    font-size: larger;
+    margin-left:5%;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.rating input {
+    display: none;
+}
+
+button[type="submit"] {
+    width: 100px;
+    position: relative;
+    left:70%;
+    bottom:25px;
+}
+.rating label {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-image: url('/Bilder/emptyStar.png');
+    background-size: cover;
+}
+
+.rating input:checked ~ label {
+    background-image: url('/Bilder/star.png')
 }
 
 /* ============================= */
 
 
 /* ========= Viner ========= */
-
 .produkter a{
     color: black;
     text-decoration: none;
