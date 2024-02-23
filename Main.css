@@ -44,6 +44,7 @@ footer{
     justify-content: center;
     bottom: 0;
     left: 0;
+    margin-bottom: -3em;
 }
 
 footer a{
@@ -501,8 +502,8 @@ button[type="submit"] {
 }
 
 .produkt {
-    border: 1px solid rgba(0, 0, 0, 0.222);
-    margin: 0.3%;
+    border: 1px solid rgba(0, 0, 0, 0.599);
+    margin: 0.5%;
     width: 450px;
     height: 450px;
     background:#bb686813;
@@ -510,7 +511,6 @@ button[type="submit"] {
 }
 
 .produkt img {
-
     margin-top: 5%;
     height: 70%;
     width: auto;
@@ -533,16 +533,15 @@ button[type="submit"] {
 /* ===========Filtrering============== */
 
 .filter-panel {
-    background-color: #9f091d43;
+    background-color: #9f091d32;
     padding: 40px;
-    border-radius: 5px;
     margin-top: 20px;
     text-align: center;
   }
   
   .filter-link {
     margin-right: 10px;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -550,7 +549,7 @@ button[type="submit"] {
   }
   
   .filter-link:hover {
-    background-color: #ae00007a;
+    text-decoration: underline;
   }
 
   .produkt {
@@ -560,7 +559,7 @@ button[type="submit"] {
   }
   
   .rött {
-    background-color: #77000048;
+    background-color: #7700008a;
   }
   
   .vitt {
@@ -569,8 +568,4 @@ button[type="submit"] {
 
   .rose{
     background-color: #ff007721;
-  }
-  
-  .produkt.hidden {
-    display: none;
   }
