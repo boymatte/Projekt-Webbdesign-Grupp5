@@ -530,4 +530,47 @@ button[type="submit"] {
     height: 4em;
 }
 
-/* ========================= */
+/* ===========Filtrering============== */
+
+.filter-panel {
+    background-color: #9f091d43;
+    padding: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .filter-link {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;   
+  }
+  
+  .filter-link:hover {
+    background-color: #ae00007a;
+  }
+
+  .produkt {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .rött {
+    background-color: #77000048;
+  }
+  
+  .vitt {
+    background-color: #ffff0020;
+  }
+
+  .rose{
+    background-color: #ff007721;
+  }
+  
+  .produkt.hidden {
+    display: none;
+  }
