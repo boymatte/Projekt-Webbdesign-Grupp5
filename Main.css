@@ -572,7 +572,7 @@ button[type="submit"] {
 
 .titel-info
 {
-    font-size: larger;
+    font-size: x-large;
     color: black
 }
 
@@ -582,4 +582,9 @@ button[type="submit"] {
     float: left;
     border: 2px solid black;
     margin-right: 10px;
+}
+
+.information-om-vin
+{
+    font-size: large;
 }
