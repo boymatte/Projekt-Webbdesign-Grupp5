@@ -599,9 +599,14 @@ button[type="submit"] {
     height: 15%;
     width: 15%;
     display: block;
-    border: 1px;
+    border: solid 2px;
    
 
 }
-
+.kloster img
+{
+   width: 20%;
+   height: 20%;
+    border: solid 3px;
+}
 
