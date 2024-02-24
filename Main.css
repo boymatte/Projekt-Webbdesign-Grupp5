@@ -570,6 +570,8 @@ button[type="submit"] {
     background-color: #ff007721;
   }
 
+
+/*=========OM VIN=========== */
 .titel-info
 {
     font-size: x-large;
@@ -586,5 +588,20 @@ button[type="submit"] {
 
 .information-om-vin
 {
+    
     font-size: large;
 }
+
+
+.Kaukasus img
+{
+    align-self: center;
+    height: 15%;
+    width: 15%;
+    display: block;
+    border: 1px;
+   
+
+}
+
+
