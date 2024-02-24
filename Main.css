@@ -569,3 +569,17 @@ button[type="submit"] {
   .rose{
     background-color: #ff007721;
   }
+
+.titel-info
+{
+    font-size: larger;
+    color: black
+}
+
+.Spring
+{
+    font-size: medium;
+    float: left;
+    border: 2px solid black;
+    margin-right: 10px;
+}
