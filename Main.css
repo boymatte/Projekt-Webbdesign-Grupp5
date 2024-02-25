@@ -394,7 +394,7 @@ aside{
     justify-content: center;
     align-items: center;
     width: 40%;
-    background-color: rgb(227, 227, 224);
+    background-color: rgb(148, 196, 211);
 }
 
 .Produktbild img{
@@ -429,9 +429,9 @@ aside{
 }
 
 .Kommentarsfält{
+    height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 60%;
     background-color: #ffffff;
@@ -449,7 +449,7 @@ aside{
 .Kommentarer{
     width: 100%;
     overflow: auto;
-    background-color: #eff3ee;
+    background-color: #eaebe5;
 }
 /* ============================= */
 
