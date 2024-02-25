@@ -221,7 +221,7 @@ nav ul li a{
     width: 5;
     height: 5;
 }
-
+/*======= Druvor =======*/
 #druvor-röda{
     width: 100%;
     padding: 70px 0;
@@ -241,27 +241,29 @@ nav ul li a{
     margin-bottom: 20px;
     color:#fff;
     position: relative;
+    overflow: hidden;
 }
 .olikadruvor img{
     width: 100%;
     height: 100%;
     border-radius: 7px; 
-}s
-
-.olikadruvor:hover .overlay{
-    opacity: 1;
-    
+    position: relative;
 }
+
 .overlay{
-    background: linear-gradient(rgba(0,0,0,0,5),#f08b8b);
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     border-radius: 7px;
     cursor: pointer;
-    transition: 1; 
+    background: linear-gradient(rgba(0,0,0,0.5),#f18686);
+    opacity: 0;
+    transition: 1s;
+}
 
+.olikadruvor:hover .overlay{
+    opacity: 1;
 }
 .olikadruvor-sort{
     width: 80%;
@@ -337,12 +339,12 @@ aside{
     hr{
         margin: 7px auto;
     }
-    .olikadruvor:hover.overlay{
+    .olikadruvor:hover .overlay{
     bottom: 10%;
     }
     
 }
-/* ========= Druvor-Vita ========= */
+
 
 
 
