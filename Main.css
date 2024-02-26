@@ -83,10 +83,10 @@ footer a:hover{
     margin-bottom: 2%;
     top: 0;
     bottom: 0;
-    width: 30%;
+    width: 50%;
     position: absolute;
     border-radius: 10px;
-    margin-left: 10%;
+    margin-left: 5%;
     text-align: center;
     color: rgb(255, 255, 255);
     background-color: rgba(78, 26, 26, 0.254);
@@ -253,7 +253,7 @@ nav ul li a{
 }
 
 .Info-om-druvor{
-    width: 40%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -311,7 +311,7 @@ nav ul li a{
     opacity: 1;
 }
 
-@media screen and (max-width: 770px) 
+@media screen and (max-width: 1200px) 
 {
     .olikadruvor{
         flex-basis: 100%;
@@ -617,7 +617,7 @@ button[type="submit"] {
 }
 
 #Main-Content img{
-    max-width: 600px;
+    max-width: 400px;
     float:right;
     border-radius: 10px;
     margin-left: 25px;
@@ -626,10 +626,6 @@ button[type="submit"] {
 .wrapper{
     max-width: 1200px;
     margin-top: 2%;
-}
-
-#Information-text-box{
-    color:rgb(0, 0, 0);
 }
 
 #Information-text-box h2{
@@ -643,4 +639,13 @@ button[type="submit"] {
 
 #Kontakta-oss{
     margin-top: 5%;
+}
+
+@media screen and (max-width: 1200px) 
+{
+    #Main-Content img{
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
 }
