@@ -440,7 +440,7 @@ aside{
 }
 /* ============================= */
 
-/*============Recensioner===========*/
+/*============Produktsidor===========*/
 #Recensera{
     margin-top: 0%;
     margin-left: 20%;
@@ -451,6 +451,7 @@ aside{
     background-color: #ffffff;
     padding-top: 1%;
     padding-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .Kommentarsfält{
@@ -477,8 +478,6 @@ aside{
     background-color: #eaebe5;
 }
 /* ============================= */
-
-/* ==============Kommentera funktion=============== */
 .Comment-box{
     width: 40%;
 }
@@ -677,6 +676,7 @@ button[type="submit"] {
 
 .wrapper{
     max-width: 1200px;
+    margin-top: 2%;
 }
 
 #Information-text-box{
