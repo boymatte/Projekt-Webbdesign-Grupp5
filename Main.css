@@ -153,7 +153,6 @@ footer a:hover{
 .boxtext{
     background-color: rgba(25, 6, 17, 0.963); 
     color:rgb(234, 234, 234);
-    display: center;
     text-align: center;
     height: 100px;
     width: 100%;
@@ -161,8 +160,7 @@ footer a:hover{
     font-size: 35px;
 }
 
-/* ========================= */
-
+/*===============NAVBAR===============*/
 .navbar ul li{
     list-style: none;
     display: inline-block;
@@ -191,8 +189,9 @@ footer a:hover{
 }
 .navbar ul li:hover::after{
     width: 100%; 
-
 }
+
+/*======= Banner på alla sidor ========*/
 .banner-text{
     text-align: center;
     color: #6e4040; 
@@ -205,32 +204,6 @@ footer a:hover{
 .banner-text p{
     font-size: 20px;
     font-style: italic;
-}
-
-nav ul li{
-    list-style: none;
-    margin: 50px 20px;
-}
-nav ul li a{
-    text-decoration: none;
-    color:#bb6868
-}
-#menuB{
-    width: 4px;
-    height: 5px;
-    background: #6e4040;
-    text-align: center;
-    position: fixed;
-    left: 0px;
-    top: 20px;
-    border-radius: 6px;
-    z-index: 3;
-    cursor: pointer;
-}
-.menuB
-{
-    width: 5;
-    height: 5;
 }
 
 /*======= Druvor =======*/
@@ -381,7 +354,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     width: 40%;
-    background-color: rgb(148, 196, 211);
+    background-color: rgb(61, 22, 35);
 }
 
 .Produktbild img{
@@ -438,7 +411,7 @@ nav ul li a{
     overflow: auto;
     background-color: #eaebe5;
 }
-/* ============================= */
+
 .Comment-box{
     width: 40%;
 }
