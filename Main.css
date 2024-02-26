@@ -640,12 +640,3 @@ button[type="submit"] {
 #Kontakta-oss{
     margin-top: 5%;
 }
-
-@media screen and (max-width: 1200px) 
-{
-    #Main-Content img{
-        float: none;
-        display: flex;
-        justify-content: center;
-    }
-}
