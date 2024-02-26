@@ -245,6 +245,24 @@ nav ul li a{
 }
 
 /*======= Druvor =======*/
+.Beskrivning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    height: 300px;
+    background-image:url(/Bilder/Cabernet\ sauvignon.jpg);
+    background-position-y: 60%;
+}
+
+.Beskrivning p{
+    padding:1%;
+    max-width: 100%;
+    font-size: 36px;
+    font-style: italic;
+    color:white;
+}
 
 #druvor{
     width: 100%;
@@ -626,6 +644,7 @@ button[type="submit"] {
 .wrapper{
     max-width: 1200px;
     margin-top: 2%;
+    margin-bottom: 10%;
 }
 
 #Information-text-box h2{
