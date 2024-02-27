@@ -22,7 +22,8 @@ header{
     background-color: rgba(0, 0, 0, 0.912);
 }
 
-section {
+main {
+    padding-bottom: 80px;
 }
 
 .logotype{
@@ -42,7 +43,7 @@ footer{
     color: white;
     position: absolute;
     width: 100%;
-    height: 80px; 
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -213,9 +214,11 @@ footer a:hover{
     align-items: center;
     text-align: center;
     max-width: 100%;
-    height: 300px;
-    background-image:url(/Bilder/Cabernet\ sauvignon.jpg);
-    background-position-y: 60%;
+    height: 10vh;
+    background-image:url(/Bilder/Druvor/druvabanner.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
 }
 
 .Beskrivning p{
@@ -543,45 +546,41 @@ button[type="submit"] {
 
 
 /*=========OM VIN=========== */
-.titel-info {
-    font-size: x-large;
-    color: black
+.om-vin {
+    margin: 100px auto;
+    width: 60%;
+    max-width: 1100px;
 }
 
-.Spring {
-    font-size: medium;
+.om-vin img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px; 
+    border-radius: 10px;
+    
+}
+
+.högerstycke {
+    margin-bottom: 100px;
+}
+
+.vänsterstycke {
+    margin-bottom: 100px;
+}
+
+.vänsterstycke img{
     float: left;
-    border: 2px solid black;
-    margin-right: 10px;
+    margin-right: 2%;
 }
 
-.information-om-vin {
-    background-color: rgb(239, 225, 225); 
-    padding: 70px 0;
+.högerstycke img{
+    float: right;
+    margin-left: 2%;
 }
 
-.information-om-vin img {
-    max-width: 200px; 
-    height: auto;
-    display: block;
-    margin-right: auto; 
-    border: solid 2px; 
-    border-radius: 10px; 
-    margin-bottom: 20px; 
-}
-
-.Kaukasus img {
-    align-self: center;
-    height: 15%;
-    width: 15%;
-    display: block;
-    border: solid 2px;
-}
-
-.kloster img {
-    width: 20%;
-    height: 20%;
-    border: solid 3px;
+.text-om-vin {
+    margin: 100px;
 }
 
 /*=========Om oss=========== */
@@ -597,16 +596,16 @@ button[type="submit"] {
 }
 
 #Main-Content img{
-    max-width: 400px;
+    max-width: 600px;
     float:right;
     border-radius: 10px;
-    margin-left: 25px;
 }
 
 .wrapper{
-    max-width: 1200px;
+    max-width: 1500px;
     margin-top: 2%;
     margin-bottom: 10%;
+    width: 98%;
 }
 
 #Information-text-box h2{
@@ -620,4 +619,10 @@ button[type="submit"] {
 
 #Kontakta-oss{
     margin-top: 5%;
+}
+
+:root{
+    vin-rött: #7700008a;
+    vin-vitt: #ffff0020;
+    vin-rose: #ff007721;
 }
