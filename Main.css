@@ -271,12 +271,16 @@ footer a:hover{
 }
 
 .olikadruvor-sort p{
-    font-size: 1.15vw;
+    font-size: 1.6vw;
 }
 
 .olikadruvor:hover .olikadruvor-sort{
     bottom: 20%;
     opacity: 1;
+}
+.h3
+{
+    font-size: 2vw;
 }
 
 .overlay{
