@@ -227,7 +227,7 @@ footer a:hover{
     max-width: 100%;
     font-size: 36px;
     font-style: italic;
-    color:white;
+    color:rgb(255, 255, 255);
 }
 
 #druvor{
@@ -262,26 +262,32 @@ footer a:hover{
 }
 
 .olikadruvor-sort{
+    height: 50%;
     width: 80%;
     position: absolute;
-    bottom: 0%;
+    bottom: 15%;
     left: 50%;
     transform: translateX(-50%) ;
-    opacity: 0;
+    opacity: 1;
     transition: 1s;
 }
 
 .olikadruvor-sort p{
-    font-size: 1.6vw;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    Background-color: #000000a4;
+    padding:5%;
 }
 
 .olikadruvor:hover .olikadruvor-sort{
     bottom: 20%;
     opacity: 1;
 }
-.h3
-{
-    font-size: 2vw;
+
+.olikadruvor-sort h3{
+    padding:5%;
+    font-size: 35px;
+    Background-color: #000000a4;
 }
 
 .overlay{
@@ -430,13 +436,13 @@ footer a:hover{
     flex-direction: row-reverse;
 }
 
-.Rating{
+.Betyget{
     display: flex;
     justify-content:center;
     align-items: center;
 }
 
-.Rating img {
+.Betyget img {
     height: 50px;
 }
 
@@ -501,7 +507,7 @@ button[type="submit"] {
 textarea {
     resize: none;
     width: 40%;
-  }
+}
 /*========= Viner =========*/
 
 .produkter a{
@@ -661,10 +667,4 @@ textarea {
 
 #Kontakta-oss{
     margin-top: 5%;
-}
-
-:root{
-    vin-rött: #7700008a;
-    vin-vitt: #ffff0020;
-    vin-rose: #ff007721;
 }
